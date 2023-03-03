@@ -1,0 +1,16 @@
+{
+    "exclude": [
+        "**/*"
+    ],
+    "references": [
+        {
+            "path": "packages/core"
+        },
+        {
+            "path": "packages/host-static"
+        },
+        {
+            "path": "packages/wait-for-port"
+        }
+    ]
+}

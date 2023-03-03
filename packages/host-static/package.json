@@ -1,0 +1,20 @@
+{
+  "name": "@codeceptjs-bootstraps/host-static",
+  "version": "0.0.1",
+  "description": "Wait for port to be available",
+  "license": "MIT",
+  "author": "Ivan Reutenko",
+  "files": [
+    "lib",
+    "doc"
+  ],
+  "main": "lib/index",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "homepage": "https://reutenkoivan.github.io/codeceptjs-bootstraps/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reutenkoivan/codeceptjs-bootstraps.git"
+  }
+}
