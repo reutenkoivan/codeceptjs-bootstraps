@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcodeceptjs_bootstraps=self.webpackChunkcodeceptjs_bootstraps||[]).push([[167],{2763:s=>{s.exports=JSON.parse('{"plugin":{"name":"docusaurus-plugin-content-docs","id":"host-static"}}')}}]);
