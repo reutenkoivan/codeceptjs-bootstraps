@@ -1,6 +1,6 @@
 const dropdownBuilder = (links) => {
   const { basePlugin, otherPlugins } = links.reduce((acc, { route, location, label }) => {
-    if (location.includes('base')) {
+    if (location.includes('core')) {
       acc.basePlugin = {
         to: route,
         label,
@@ -16,13 +16,13 @@ const dropdownBuilder = (links) => {
   }, { basePlugin: null, otherPlugins: [] })
 
   const basePackageLink = {
-    label: '@pw-codeceptjs/base',
+    label: '@codeceptjs-bootstraps/core',
     to: basePlugin.to,
   }
 
   const pluginsDropdown = {
     type: 'dropdown',
-    label: 'Plugins',
+    label: 'Bootstraps',
     items: otherPlugins.sort((a, b) => a.label.length - b.label.length),
   }
 

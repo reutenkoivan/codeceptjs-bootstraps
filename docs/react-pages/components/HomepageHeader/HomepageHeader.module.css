@@ -1,0 +1,39 @@
+.heroBanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 4rem 0 4rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroTitle {
+  color: var(--ifm-color-primary);
+}
+
+.logo {
+  display: flex;
+  width: 84px;
+  border: solid 5px var(--ifm-color-primary);
+  border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+:root {
+  --ifm-color-primary: #009dff;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #009dff !important;
+  --ifm-code-font-size: 95%;
+}
+
+.navbar__logo img {
+  border-radius: 50%;
+  border: solid 2px #fff;
+}
+
+nav[class*="menu"] {
+  border: none !important;
+}
