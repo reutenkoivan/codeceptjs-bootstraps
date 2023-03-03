@@ -1,6 +1,6 @@
 {
   "name": "@codeceptjs-bootstraps/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Core functionality for the CodeceptJS bootstraps",
   "license": "MIT",
   "author": "Ivan Reutenko",

@@ -1,6 +1,6 @@
 {
   "name": "@codeceptjs-bootstraps/wait-for-port",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wait for port to be available",
   "license": "MIT",
   "author": "Ivan Reutenko",
